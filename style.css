@@ -1,0 +1,48 @@
+.matrix {
+    text-align: center;
+}
+
+.matrix li {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.matrix ul {
+    display: inline-block;
+    line-height: 0;
+    margin: -2px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.list-1 li {
+    background-color: hsla(344, 80%, 75%, 1);
+}
+
+.list-2 li {
+    background-color: hsla(213, 80%, 75%, 1);
+}
+
+.list-3 li {
+    background-color: hsla(198, 80%, 75%, 1);
+}
+
+.list-4 li {
+    background-color: hsla(135, 80%, 75%, 1);
+}
+
+.list-5 li {
+    background-color: hsla(67, 80%, 75%, 1);
+}
+
+.list-6 li {
+    background-color: hsla(344, 80%, 99%, 1);
+}
+
+.list-7 li {
+    background-color: hsla(10, 90%, 75%, 1);
+}
+
+.list-8 li {
+    background-color: hsla(0, 0%, 75%, 1);
+}
