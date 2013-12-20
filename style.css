@@ -6,6 +6,11 @@
     display: block;
     width: 20px;
     height: 20px;
+		webkit-transition: background-color 350ms ease-in;
+		moz-transition: background-color 350ms ease-in;
+		ms-transition: background-color 350ms ease-in;
+		o-transition: background-color 350ms ease-in;
+		transition: background-color 350ms ease-in;
 }
 .matrix ul {
     display: inline-block;

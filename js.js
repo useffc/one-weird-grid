@@ -12,5 +12,5 @@ function randomColor() {
 setInterval (function() {
 $('.matrix li').each(function() {
 	$(this).css("background-color", randomColor)});
-}, 500);
+}, 350);
 
