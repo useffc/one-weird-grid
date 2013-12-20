@@ -10,4 +10,7 @@ function randomColor() {
 
 
 setInterval (function() {
-$('.matrix li').css("background-color", randomColor())}, 500);
+$('.matrix li').each(function() {
+	$(this).css("background-color", randomColor())}, 1000);
+});
+
